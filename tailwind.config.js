@@ -24,7 +24,7 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          backgroundImage: "linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1)",
+          DEFAULT: "bg-gradient-to-r from-purple-500 to-purple-900 bg-clip-text text-transparent ",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
