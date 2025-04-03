@@ -22,9 +22,9 @@ function Hero() {
       <div className="lg:py-24">
         <h2 className="text-4xl font-bold sm:text-4xl">
             Find & Book 
-            <span className='text-primary'> Appointment </span> 
+            <span className='bg-gradient-to-r from-purple-500 to-purple-900 bg-clip-text text-transparent'> Appointment </span> 
             with your Fav 
-            <span className='text-primary '> Doctors</span></h2>
+            <span className='bg-gradient-to-r from-purple-500 to-purple-900 bg-clip-text text-transparent '> Doctors</span></h2>
 
         <p className="mt-4 text-gray-500">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
