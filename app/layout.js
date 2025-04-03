@@ -19,10 +19,11 @@ export default function RootLayout({ children }) {
         <div className="md:px-20">
           <Header/>
           {children}
-          <SpeedInsights/>
+          
           <Toaster />
         </div>
          <Footer/> 
+          <SpeedInsights/>
         </body>
     </html>
   );
