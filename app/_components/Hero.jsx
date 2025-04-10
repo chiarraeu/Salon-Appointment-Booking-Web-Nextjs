@@ -21,10 +21,17 @@ function Hero() {
 
       <div className="lg:py-24">
         <h2 className="text-4xl font-bold sm:text-4xl">
+<<<<<<< HEAD
             Намери & Резервирай 
             <span className='text-primary'> Посещение </span> 
             за Любимото си 
             <span className='text-primary '> Място</span></h2>
+=======
+            Find & Book 
+            <span className='bg-gradient-to-r from-purple-500 to-purple-900 bg-clip-text text-transparent'> Appointment </span> 
+            with your Fav 
+            <span className='bg-gradient-to-r from-purple-500 to-purple-900 bg-clip-text text-transparent '> Doctors</span></h2>
+>>>>>>> 420c89f7e65cbda6b66c904f87d0deadcaae927c
 
         <p className="mt-4 text-gray-500">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis

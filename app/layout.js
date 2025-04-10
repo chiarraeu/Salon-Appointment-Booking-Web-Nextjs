@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import { Toaster } from "sonner";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -18,9 +19,15 @@ export default function RootLayout({ children }) {
         <div className="md:px-20">
           <Header/>
           {children}
+          
           <Toaster />
         </div>
+<<<<<<< HEAD
         <Footer/> 
+=======
+         <Footer/> 
+          <SpeedInsights/>
+>>>>>>> 420c89f7e65cbda6b66c904f87d0deadcaae927c
         </body>
     </html>
   );

@@ -82,5 +82,9 @@ function CategorySearch() {
   );
 }
 
+<<<<<<< HEAD
 export default CategorySearch;
 
+=======
+export default CategorySearch
+>>>>>>> 420c89f7e65cbda6b66c904f87d0deadcaae927c
